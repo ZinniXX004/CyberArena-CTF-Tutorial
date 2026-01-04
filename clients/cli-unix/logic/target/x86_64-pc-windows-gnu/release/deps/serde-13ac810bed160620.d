@@ -1,0 +1,14 @@
+E:\basic ctf game\clients\cli-unix\logic\target\x86_64-pc-windows-gnu\release\deps\serde-13ac810bed160620.d: E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs E:\basic\ ctf\ game\clients\cli-unix\logic\target\x86_64-pc-windows-gnu\release\build\serde-0627cf6a0d5c87f2\out/private.rs
+
+E:\basic ctf game\clients\cli-unix\logic\target\x86_64-pc-windows-gnu\release\deps\libserde-13ac810bed160620.rlib: E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs E:\basic\ ctf\ game\clients\cli-unix\logic\target\x86_64-pc-windows-gnu\release\build\serde-0627cf6a0d5c87f2\out/private.rs
+
+E:\basic ctf game\clients\cli-unix\logic\target\x86_64-pc-windows-gnu\release\deps\libserde-13ac810bed160620.rmeta: E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs E:\basic\ ctf\ game\clients\cli-unix\logic\target\x86_64-pc-windows-gnu\release\build\serde-0627cf6a0d5c87f2\out/private.rs
+
+E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+E:\Rust\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+E:\basic\ ctf\ game\clients\cli-unix\logic\target\x86_64-pc-windows-gnu\release\build\serde-0627cf6a0d5c87f2\out/private.rs:
+
+# env-dep:OUT_DIR=E:\\basic ctf game\\clients\\cli-unix\\logic\\target\\x86_64-pc-windows-gnu\\release\\build\\serde-0627cf6a0d5c87f2\\out
