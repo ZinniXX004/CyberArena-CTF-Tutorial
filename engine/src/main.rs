@@ -9,7 +9,7 @@ use serde::{Deserialize, Serialize};
 use std::sync::Arc;
 use tracing::info;
 
-// Data Structures-
+// Data Structures
 
 #[derive(Clone, Serialize, Deserialize, Debug)]
 struct SubmitFlagRequest {
@@ -48,13 +48,15 @@ async fn main() {
         scores: DashMap::new(),
     });
 
-    // REGISTER FLAGS HERE-
+    // REGISTER FLAGS HERE
     // 1. Basic Flag
     state.challenges.insert("CTF{welcome_to_rust}".to_string(), 100);
     // 2. Binary Exploitation Flag (Phase 2)
     state.challenges.insert("CTF{buffer_overflow_ez}".to_string(), 300);
-    // 3. Web/SQL Injection Flag (Phase 3) - NEW!
+    // 3. Web/SQL Injection Flag (Phase 3)
     state.challenges.insert("CTF{sql_injection_master}".to_string(), 500);
+    // 4. Crypto Challenges (Phase 4)
+    state.challenges.insert("CTF{crypto_god_sha256}".to_string(), 800);
 
     // Initialize Teams
     state.scores.insert("RedTeam".to_string(), 0);
