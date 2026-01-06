@@ -104,5 +104,20 @@ def build_project():
     print("       BUILD COMPLETE - READY TO PLAY         ")
     print("==============================================")
 
+    # PHASE 4: CRYPTO CHALLENGE
+    print("\n[4/4] Generating Crypto Artifacts...")
+    crypto_dir = os.path.join(os.path.dirname(challenge_dir), "03-crypto-crack")
+    crypto_script = os.path.join(crypto_dir, "secure_vault.py")
+    
+    if os.path.exists(crypto_script):
+        try:
+            # Run the script with --setup to create the .enc file
+            subprocess.check_call([sys.executable, crypto_script, "--setup"], cwd=crypto_dir)
+            print("    [+] Success: flag.enc generated.")
+        except subprocess.CalledProcessError:
+            print("    [!] Failed to generate crypto files.")
+    else:
+        print(f"    [-] Skip: {crypto_script} not found.")
+
 if __name__ == "__main__":
     build_project()
